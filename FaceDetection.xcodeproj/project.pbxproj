@@ -137,10 +137,10 @@
 		AAC387D5245374850044CEFB /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				AAC387CD245372FE0044CEFB /* FaceMaskViewController.swift */,
 				AAC387D1245373D10044CEFB /* FaceClassificationViewController.swift */,
 				AAC387D3245373E70044CEFB /* ObjectDetectionViewController.swift */,
 				AAC387CF245373B50044CEFB /* FaceDetectionViewController.swift */,
-				AAC387CD245372FE0044CEFB /* FaceMaskViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
