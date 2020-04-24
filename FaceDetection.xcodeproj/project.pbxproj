@@ -14,6 +14,10 @@
 		AAC387AA2453715F0044CEFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAC387A82453715F0044CEFB /* LaunchScreen.storyboard */; };
 		AAC387B52453715F0044CEFB /* FaceDetectionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC387B42453715F0044CEFB /* FaceDetectionTests.swift */; };
 		AAC387C02453715F0044CEFB /* FaceDetectionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC387BF2453715F0044CEFB /* FaceDetectionUITests.swift */; };
+		AAC387CE245372FE0044CEFB /* FaceMaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC387CD245372FE0044CEFB /* FaceMaskViewController.swift */; };
+		AAC387D0245373B50044CEFB /* FaceDetectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC387CF245373B50044CEFB /* FaceDetectionViewController.swift */; };
+		AAC387D2245373D10044CEFB /* FaceClassificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC387D1245373D10044CEFB /* FaceClassificationViewController.swift */; };
+		AAC387D4245373E70044CEFB /* ObjectDetectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC387D3245373E70044CEFB /* ObjectDetectionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		AAC387BB2453715F0044CEFB /* FaceDetectionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FaceDetectionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAC387BF2453715F0044CEFB /* FaceDetectionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceDetectionUITests.swift; sourceTree = "<group>"; };
 		AAC387C12453715F0044CEFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAC387CD245372FE0044CEFB /* FaceMaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceMaskViewController.swift; sourceTree = "<group>"; };
+		AAC387CF245373B50044CEFB /* FaceDetectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceDetectionViewController.swift; sourceTree = "<group>"; };
+		AAC387D1245373D10044CEFB /* FaceClassificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceClassificationViewController.swift; sourceTree = "<group>"; };
+		AAC387D3245373E70044CEFB /* ObjectDetectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectDetectionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +108,7 @@
 				AAC3879D2453715C0044CEFB /* AppDelegate.swift */,
 				AAC3879F2453715C0044CEFB /* SceneDelegate.swift */,
 				AAC387A12453715C0044CEFB /* ViewController.swift */,
+				AAC387D5245374850044CEFB /* View Controllers */,
 				AAC387A62453715F0044CEFB /* Assets.xcassets */,
 				AAC387A82453715F0044CEFB /* LaunchScreen.storyboard */,
 				AAC387AB2453715F0044CEFB /* Info.plist */,
@@ -123,6 +132,17 @@
 				AAC387C12453715F0044CEFB /* Info.plist */,
 			);
 			path = FaceDetectionUITests;
+			sourceTree = "<group>";
+		};
+		AAC387D5245374850044CEFB /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AAC387D1245373D10044CEFB /* FaceClassificationViewController.swift */,
+				AAC387D3245373E70044CEFB /* ObjectDetectionViewController.swift */,
+				AAC387CF245373B50044CEFB /* FaceDetectionViewController.swift */,
+				AAC387CD245372FE0044CEFB /* FaceMaskViewController.swift */,
+			);
+			path = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,8 +276,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				AAC387A22453715C0044CEFB /* ViewController.swift in Sources */,
+				AAC387CE245372FE0044CEFB /* FaceMaskViewController.swift in Sources */,
 				AAC3879E2453715C0044CEFB /* AppDelegate.swift in Sources */,
+				AAC387D2245373D10044CEFB /* FaceClassificationViewController.swift in Sources */,
+				AAC387D4245373E70044CEFB /* ObjectDetectionViewController.swift in Sources */,
 				AAC387A02453715C0044CEFB /* SceneDelegate.swift in Sources */,
+				AAC387D0245373B50044CEFB /* FaceDetectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
